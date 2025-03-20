@@ -9,8 +9,8 @@
 </p>
 <div align="center">
   <h1>
-    Clerk, InstantDB, and Next.js App Router Demo 
-  </h1>  
+    Clerk, InstantDB, and Next.js App Router Demo
+  </h1>
   <a href="https://www.npmjs.com/package/@clerk/clerk-js">
     <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/clerk-js" />
   </a>
@@ -19,7 +19,7 @@
   </a>
   <a href="https://twitter.com/clerkdev">
     <img alt="Twitter" src="https://img.shields.io/twitter/url.svg?label=%40clerkdev&style=social&url=https%3A%2F%2Ftwitter.com%2Fclerkdev" />
-  </a> 
+  </a>
   <br />
   <br />
   <img alt="Clerk Hero Image" src="./public/hero.png">
@@ -33,10 +33,7 @@
 
 Integrating InstantDB with Clerk gives you the benefits of using an InstantDB database while leveraging Clerk's authentication, prebuilt components, and webhooks.
 
-After following [the Clerk + InstantDB integration guide](https://clerk.com/docs/integrations/databases/instantdb), you will have learned how to:
-  - Configure your Clerk session token to include the email claim.
-  - Configure InstantDB to use your Clerk application.
-  - Integrate InstantDB into your Clerk application.
+This repository demonstrates how to integrate InstantDB with a Clerk + Nextjs application. For more information, see the [guide in the Clerk Docs](https://clerk.com/docs/integrations/databases/instantdb).
 
 ## Deploy
 
@@ -56,7 +53,7 @@ To run the example locally, you need to:
 
 2. Go to the [Clerk dashboard](https://dashboard.clerk.com?utm_source=DevRel&utm_medium=docs&utm_campaign=templates&utm_content=clerk-instantdb-nextjs) and create an application.
 
-3. Set the required Clerk environment variables as shown in [the example `env.local.example` file](./.env.local.example).
+3. Set the required Clerk environment variables as shown in [the example `env.example` file](./.env.example).
 
 4. `npm install` the required dependencies.
 
